@@ -11,12 +11,12 @@ function addTask() {
         <label class="container">
           <input type="checkbox">
           <div class="checkmark">
-            <img src="/images/icon-check.svg" alt="Check" class="check-icon">
+            <img src="images/icon-check.svg" alt="Check" class="check-icon">
           </div>
           <div>
             <span class="text">${task}</span>
           </div>
-          <img src="/images/icon-cross.svg" alt="Delete" class="delete-icon">
+          <img src="images/icon-cross.svg" alt="Delete" class="delete-icon">
         </label>
         <hr>
       `;
@@ -79,9 +79,9 @@ imagemoon.addEventListener('click', function() {
         item.classList.toggle('darkModecheck');
     });
     if (document.body.classList.contains('darkMode')) {
-        imagemoon.src = '/images/icon-sun.svg';
+        imagemoon.src = 'images/icon-sun.svg';
     } else {
-        imagemoon.src = '/images/icon-moon.svg';
+        imagemoon.src = 'images/icon-moon.svg';
     }
 });
 
