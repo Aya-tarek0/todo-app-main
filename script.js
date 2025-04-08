@@ -79,9 +79,9 @@ imagemoon.addEventListener('click', function() {
         item.classList.toggle('darkModecheck');
     });
     if (document.body.classList.contains('darkMode')) {
-        imagemoon.src = 'images/icon-sun.svg';
+        imagemoon.src = 'images\icon-sun.svg';
     } else {
-        imagemoon.src = 'images/icon-moon.svg';
+        imagemoon.src = 'images\icon-moon.svg';
     }
 });
 
